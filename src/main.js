@@ -9,6 +9,7 @@ Vue.prototype.$bus = new Vue()
 FastClick.attach(document.body)
 Vue.use(VueLazyLoad)
 new Vue({
+
   router,
   store,
   render: h => h(App),
